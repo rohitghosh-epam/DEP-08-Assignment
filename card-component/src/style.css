@@ -1,0 +1,89 @@
+body html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.main-body {
+    /* background-image: url(../pub/assets/Image/Profile.jpg); */
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 100vh;
+    height: 70vh;
+    background-color: #cbcbcb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.card-content {
+    width: 40%;
+    height: 80%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row1 {
+    margin: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.row1 > img {
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+}
+
+.row1 > h4 {
+    padding-left: 3vh;
+    padding-right: 3vh;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    align-items: center;
+    gap: 2vh;
+}
+
+.row2 > img {
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
+}
+
+.row2-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.row2-text > * {
+    margin: 0;
+    padding: 0;
+}
+
+.row2-text > h5 {
+    font-size: vh;
+}
+
+.row2-text > p {
+    color: #cbcbcb;
+    font-size: 1.5vh;
+}
